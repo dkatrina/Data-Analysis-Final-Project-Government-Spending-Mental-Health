@@ -1,0 +1,258 @@
+---
+title: "Final Project"
+author: "Katrina Deng"
+date: "11/26/2021"
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+header-includes:
+  \usepackage{fvextra}
+  \DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+  \usepackage{setspace}\doublespacing
+---
+**The Effect of Government Spending and Healthcare on Mental Health in the United States**
+
+
+**1.Introduction**
+
+  In 2019, before the COVID-19 pandemic, Mhanational reported that 19.86% of adults in America claim to have suffered from a mental health illness. To quantity, that is nearly 50 million Americans and these are those who live among us, those whom we call our friends, families, and neighbors. This alarming rate has been heavily reflected within our younger demographic as we see this growing percentage reflected in 15.08% of teenagers reporting they had a major depressive offset in this past year and are living with depressive symptoms. This is a 1.24% increase from the previous year, and that means over 2.5 million teens in the U.S are currently going on their daily lives with these psychological conditions that impact their emotional well-being. As shocking as these numbers are, over half of the those suffering from mental health illnesses I have mentioned, do not receive any treatment. Whether that be counseling, therapy, or through medication and are going without any help that could potentially alleviate their condition(s). One culprit I suggest is the lack of adequate health care insurance coverage. We are a nation without a universal healthcare policy in place and government spending on these resources seems to be increasingly more needed and controversial at the same time. However, healthcare, or the lack of it, is just one of the myriad of factors that is truly influencing an individual's mental health. This is because mental health is such a complex subject of manner and just understanding it is a gray area alone. The reason being mental health overlaps of social environment, core beliefs, genetic make-up, career trajectory, are just some of the top areas that can influence one's state of emotional well-being.
+  
+  There is simply no clear and straight-cut answer for the question of whether healthcare can help with our mental health. However, there is potential to sit with this thought when we reflect on European nations and how their own citizens rate their well-being since they are under universal healthcare. It seems that European citizens self report themselves as being happier and more content with their daily lives and that makes this topic of analysis worth exploring. Given mental health's broad scope, I will focus on narrowing down my question of interest to medication efficacy. While therapy is usually recommended first when people seek help, medication is usually associated with the greatest impact due to its rigorous scientific backing and research.
+  
+  Psychiatric medication has been thoroughly tested throughout the strenuous FDA approval process. Anywhere from 10 to 15 years are needed to ensure that the medication is a safe and effective drug. This process involves guidelines to standardize antidepressant studies and starts from pre-clinical research and then goes through all three stages of clinical studies. After it has been passed through clinical studies, the drug is finally then ready to submit its application to the FDA. The process is still on going as it continues with post-approval to ensure that it is safe as the medical community and its technologies innovate and evolves with our modern age. To put this into perspective let's take a look at Citalopram. It is one of the top prescribed antidepressants of the SSRI class and was synthesized in 1972 and put on the market in 1998. It has continued to be one of the most commonly prescribed medications to treat to this day. Second, the reason why these medications have been on the market since the twentieth century and are still prevalent today is because of their efficacy. Antidepressants have proven to improve symptoms within six to eight weeks and can help one become emotionally stable again and help one follow through with their normal daily routine. Certainly, we can say that these medications have been able to help those that need just a boost from them to move their daily activities, relationships with others, and overall well being 
+  
+  To conclude, medication can be an influential and critical factor when it comes to influencing a person’s mental health. This study aims to examine the relationship between healthcare resources such as medication and an individual’s mental health. The results of this study can be helpful to support the need of increasing the accessibility of healthcare insurance to the general population- especially when it seems that mental health issues are on the rise. Thus, we could potentially alleviate a lot of the challenges that arise from mental health struggles within our society around us to create a better environment for all. 
+  
+**2. Hypotheses**
+
+- The more one supports government spending and responsibility for mental health, the more they are receptive to taking medication. 
+
+- The more willing, receptive, recommends, or receptive, to medication, or other avenues of aid, the better one would rate their mental health. 
+  
+  
+**3. Data source, variables and measurements**
+
+  The data set used in this study is the 2006 General Social Survey (GSS). GSS is a national survey which aggregates demographic, behavioral, attitudes, and beliefs information pertaining to Americas. The respondents that make up the sample are randomly selected and are relatively large since the GSS is gathering a number that reflects a large number of people that make up all of those living in the United States. I would have loved to use a more recent GSS data set, but it seems that 2006 best fits my research question and design. The reason is, it is one of the GSS that asks the most questions pertaining to healthcare, government spending on it, and psychiatric medication. 
+  
+  My study aims to look at the relationship between healthcare and its resources and mental health. The dependent variable of this study is mental health. As mentioned as the concept of mental health is quite broad and since I am specifically interested in exploring medication, I decided to break it down into two categories for my analysis. One captures how willing one is to take medication. 
+
+One indicator from the 2006 GSS that can be used to measure an individuals willingness to take medication is
+
+
+- TAKERX: Should NAME do the following: I. Take prescription medication (RXMED) (respondents answers ranges from 1- yes to 2-no)
+  
+  
+Another from the 2006 GSS that can be used to measure an individual's overall mental health is 
+
+  - MNTLHLTH: Now thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good? (respondents answers ranges from 0 to 30 days)
+  
+  The independent variables in this study are healthcare and its encompassing resources. To better understand the effect of healthcare access, I decompose healthcare into two categories, one is one's current opinion on the state of the government with healthcare. This notion is in terms of government spending and responsibility and acts as more of an exogenous variable since the response captures a more holistic opinion that is more general than personal. The other category takes a deeper look into one's opinions on how health care's offerings of psychiatric drugs can help aspects of their daily lives. Below are indicators from GSS 2006 that will be used to measure the stance with the government and it's involvement with health care
+
+
+*Exogenous opinions:*
+
+- RESPONSIBLECOST: Who should be the most responsible for paying the cost of medical care including mental health care and treatment (1=him/herself, 2=his/her family, 3=government, 4=insurance, 5=private charity)
+
+- GOVERNMENTRESPONSIBILITY: Do you think it should or should not be the government's responsibility to provide mental health care for persons with mental illnesses? (1=definitely should not be 2=probably should not be 3=probably should be, and 4definitely should be)
+
+*Personal opinions:*
+
+- RECEIVEDTREATMENT: Have you personally ever received treatment for a mental health problem? (1=Yes, 2=No)
+
+- PSYCMEDSTRESS: Taking these medications helps people deal with day-to-day stresses. (1=strongly disagree, 2=disagree, 3=n
+either disagree nor agree, 4=agree, and 5=strongly agree)
+
+- PSYCMEDRELATIONSHIPS: Taking these medications makes things easier in relations with family and friends.(1=strongly disagree, 2=disagree, 3=neither disagree nor agree, 4=agree, and 5=strongly agree)
+
+- PSYCMEDSYMPTOMS: These medications help people control their symptoms.( 1=strongly disagree, 2=disagree, 3=neither disagree nor agree, 4=agree, and 5=strongly agree)
+
+- PSYCMEDBETTER: Taking medication helps people feel better about themselves. (1=strongly disagree, 2=disagree, 3=neither disagree nor agree, 4=agree, and 5=strongly agree)
+
+
+**4. Data Analysis**
+
+Descriptive Information
+
+Table 1 shows the descriptive information we aim to analyze in this study. The Mean Value, standard deviation, and minimum and maximum values are as shown below.  
+```{r}
+gss = read.csv("/Users/katrinadeng/Downloads/GSS.2006.csv.xls")
+library(psych)
+```
+
+```{r}
+# re-coding variables for interpretability 
+
+mntlhlth <- c(gss$mntlhlth)
+responsiblecost <- c(gss$medcare1)
+governmentresponsibility <- c(gss$govmentl)
+receivedtreatment<- c(gss$mhtrtslf)
+harmful <- c(gss$psycmed1)
+interfere <- c(gss$psycmed3)
+psycmedstress<- c(gss$psycmed4)
+psycmedrelationships<- c(gss$psycmed5)
+psycmedsymptoms<- c(gss$psycmed6)
+psycmedbetter<- c(gss$psycmed7)
+
+takerx<- c(gss$rxmed)
+
+takerx<-2 - takerx
+
+mntlhlth <- ifelse((mntlhlth>15), 1, 0)
+
+governmentresponsibility <- 5 - governmentresponsibility
+
+harmful<- 6 - harmful
+
+interfere <- 6 - interfere
+
+psycmedstress<- 6 - psycmedstress
+
+psycmedrelationships<- 6 - psycmedrelationships
+
+psycmedsymptoms<- 6 - psycmedsymptoms
+
+psycmedbetter<- 6 - psycmedbetter
+
+
+df<- data.frame(responsiblecost, governmentresponsibility, mntlhlth,  receivedtreatment, harmful, interfere, psycmedstress, psycmedrelationships, psycmedsymptoms, psycmedbetter, takerx)
+```
+**TABLE 1**
+
+```{r}
+describe(df)
+```
+On average, respondents are experiencing frequent mental health days with the mean at 0.06. That lies a little past the middle of 0 = infrequent: mental health days of fewer than 15, and 1 = frequent 15 or more mental health days. This means there is a prevalence of people living with stressors, depression, and other mental health issues daily which support for further analysis. 
+
+Looking through the variables that measure exogenous variables, we can see that, on average people are leaning towards the government being responsible for mental health care and costs with the mean score at 2.88. Additionally, people agree that on average, it probably should be the government's responsibility to provide mental health care for people diagnoses with such illnesses with a mean score of 3.99. Lastly, it seems that on average people see the benefits of mental health treatment with a mean score of 2.88 showing that people see that it helps quite a bit, the standard deviation is very large, 0.98. 
+
+Turning to personal questions, we see that the on average, psychiatric medications seem to help people as the mean scores for all medication-related questions to alleviating stress, relationship problems, symptoms, and making them feel better in general range from 3.94, 3.84, 3.99, and 3.65 and fall in between 3= neither agree and 4=agree. To conclude, it seems that people do believe in mental health treatment and the government would play an integral role in helping people decrease their mental health problems. However, we have to make a note that on average, people have not received treatment with a mean score of 1.85 and the standard deviation is low 0.36. Therefore, the participants who are answering these questions are mostly based on people who have not received mediation or treatment. This aligns with the notion above that many Americans go untreated. 
+
+**4.2 Initial Model**
+
+**Multiple Linear Regression Model**
+
+**TABLE 2**
+```{r}
+lm0 = lm(takerx ~ governmentresponsibility + responsiblecost, data=df)
+summary(lm0)
+```
+
+The initial analysis of the association between the entity responsible for the cost of medication & healthcare resources and the receptivity of taking medication. In addition to, mental health days and how alleviating these prescription drugs can be in their well-being both adopt the multiple linear regression model.
+
+
+It can tell us an estimate to how receptive they are of taking medication and how frequently the number of mental health days experienced changes as our independent variables of responsibility, its related entities, and how psychological medication helps individuals change. The assumption underlying the multiple linear regression model is that there must be a linear relationship between the dependent variable and our independent variables. This linearity can be tested with the use of scatter plots to see if it is curvilinear or linear. Secondly, the multiple linear regression analysis requires that the errors with the observed and predicted values and in our case, the residuals in the regression would be normally distributed. We can test this by looking at a histogram or using a goodness of fit test- though it would be conducted on the residuals themselves. Lastly, we assume there is no multicollinearity in the data set. This means that we will ignore if some independent variables are too highly correlated with each other. For the time being of our initial model, we assume that the following are valid assumptions.
+
+TAKERX here should be understood along with the binary recode of 1=No and 1=Yes when it comes to recommending another individual to take prescription medication. 
+ 
+From table 2 we see that for every categorical increase in the government responsibility to provide mental health care for people with mental health illnesses, on average people experience an increase of 0.02356 units of taking prescription medication. For every categorical increase in responsible cost, on average, people experience an increase of 0.02356 units when it comes to taking prescription medications. Both of these coefficients are positive which means that when you favor government responsibility and agree that an entity such as the government, charity, or insurance- an external resource other than oneself, you would be more likely to take prescription medication. This supports my initial hypothesis.  
+
+In addition, we see that in this model responsiblecost is statistically significant with a low p-value of 0.00774. It means that there is a 0.774% chance that my data could occur under the null hypothesis and therefor we have reason to reject the null and accept the alternative hypothesis. Since the threshold is less than 0.01 we have evidence to reject it. What is most telling from this model is that responsiblecost, meaning the entity who should financially cover mental health care is more statistically significant than governmentresponsibility. This is telling since it says that once we remove one responsibility from the financial means of medical care and treatment, it is statistically more significant than the variable of the government being responsible alone. I would say that we can see a story play out with taking prescription medication as long as we are not the one's being burdened with the cost of care and treatment since both can add up under the American healthcare systems- especially when uninsured. This implies an accessibility issue since people are more willing to take these researched and proven drugs just as long as they are not the ones tied up with the assumed hefty cost associated. 
+
+The adjusted R-sq is only 0.01054, which means only 1.054% of the total variance in the dependent variable, takerx,, can be explained by the explanatory variables. We will further analyze this after running the second regression.
+
+
+Here, I have decided to drop the independent variable of RECEIVEDTREATMENTS since I want to focus more on the medication itself.
+
+**TABLE 3**
+```{r}
+lm1 = lm(mntlhlth ~ harmful+ interfere + psycmedstress + psycmedrelationships + psycmedsymptoms + psycmedbetter, data=df) #linear model
+
+summary(lm1)
+```
+From table 3 we see that although the coefficient psycmedrealtionshops is statistically significant, all coefficients on the controlled variables are statistically insignificant judging by the p-value. The adjusted R-square is only 0.003043, indicating only 3.043% of the total variance in the frequency of mental health days ones experienced can be explained by these explanatory variables. Comparing our initial and now our second regression we see that the p-value here is higher which may suggest that this model itself is slightly more powerful in explaining our research of interest.
+
+Honing in on PSYCMEDREALTIONSHIP due to its statistical significant, for every categorical increase in psychological medication helping ease relationships, on average, one would experience an increase in 0.0307571 units of frequent mental health days net of one's opinions on the harmfulness and interference of medication and medication alleviating stressors, symptoms and well-being. 
+
+From the table above we see that all but, PSYCMEDSYMPTOMS and PSYCMEDBETTER coefficients are all positive that means the higher values of those coefficients makes it more likely that the respondents will experience more frequent mental health days, controlling for all the other variables. However, the sign of PSYCMEDSYMPTOMS and PSYCMEDBETTER are negative. For example, for every categorical increase in believing that psychiatric medication can help with symptoms, on average, one would experience a decrease of 0.0182015 frequent mental health days net of believing that medication is harmful and cause interference with life, medication alleviating stress, relationships, and well-being. We also see that for every categorical increase in psychological medication making one feel better, on average, there is a 0.0208175 decrease in mental health days experienced net of believing that medication is harmful and causes interference with life, medication alleviating stress, relationships, and symptoms. Both coefficients mentioned here along with harmful and interfere support my initial hypothesis. However, PSYCMEDSTRESS, and PSYCMEDRELATIONSHIPS are the only coefficients that don't support my hypothesis.
+
+**Remarks on the Multiple Linear Regression Models**
+
+According to the results above obtained from multiple linear regression, we see that the more you support government spending and cost the more likely you are to take prescription medication, the more you think medication interferes are is harmful the more you will experience mental health days, the more that you think prescription helps with stress and relationships the more mental health days you are likely to experience, lastly and the more you think the medication can help your symptoms and well being the less likely you are to experience mental health days controlling for the other explanatory variables. 
+
+Since in the second model, the two variables of PSYCMEDSTRESS and PSYCMEDRELATIONSHIPS did not support my initial hypothesis. I decided to add an interaction to see if there is a relationship with the two of the independent variables that possibly can influence the immensity of the dependent variable. 
+
+**TABLE 4**
+```{r}
+
+lm1 = lm(mntlhlth ~ harmful+ interfere + psycmedstress + psycmedrelationships + psycmedsymptoms + psycmedbetter + psycmedstress * psycmedrelationships, data=df) #linear model
+
+summary(lm1)
+
+```
+From the following analysis, we add an interaction between PSYCMEDSTRESS and PSYCMEDRELATIONSHIPS. I am assuming that the increase that medication can help alleviate stressors will lead to the increase in medication helping with relationships in our lives. We now see with this interaction that now the more you agree with taking medication for alleviating stressors the less likely you are to experience more frequent mental health days. Supporting my initial hypothesis. However, the results of this updated model show that the coefficient of the interaction term is statistically insignificant this time around. Additionally, it's adjusted R-square is slightly lower than the previous one. 
+
+However, I find that the models are insufficient in discussing the relationship between the independent and dependent variables in this case. First, it is difficult to interpret the relationship between harmful, interfere, PSYCMEDSTRESS, PSYCMEDRELATIONSHIPS, PSYCMEDSYMPTOMS, and PSYCMEDBETTER since they are all ordinal variables. In this multiple linear regression model, I treat them as continuous variables, which may possibly lead to a large bias since they are originally 5 discrete categories. Second, the adjusted R-square is extremely low in all these models, which means there is a significantly weak power when it comes to explanatory means of the model, also the statistical insignificance in the majority of the coefficients makes this analysis obscure. These limitations make the above analysis not as extremely robust as I would have liked. 
+
+
+**4.3**
+**Ordinal Logistic Regression Model**
+
+Considering the limitations of the multiple linear regression model that I have described earlier, the above model may not be the best statistical methodology to analyze ordinal variables since it does not account for ordinal measurement and is used in a continuous variable manner. I decided to use an ordered logistic model to see if I could obtain more robust results even though it is more complex than a multiple linear regression model while keeping my hypothesis the same. I would adopt the ordinal logistic regression model to analyze the association between the entity responsible for the cost of medication & healthcare resources and the receptivity of taking medication. In addition to, mental health days and how alleviating these prescription drugs can be in their well-being both adopt the ordinal logistic regression model. The ordinal logistic regression model will estimate the concurrent logistic equations for two categories of the dependent variables. It could explain how the odds ratio of moving from “no” to “yes” or “infrequent” to “frequent” mental health days when the independent variables change. We are considering the underlying assumption that this ordinal logistic regression model is that the odds ratio is considered the same for each category. This also implies that the slope of the relationship between adjacent categories would be equal. As I build out my next model, we take this as a valid assumption. 
+
+
+```{r}
+library(ordinal)
+```
+
+**TABLE 5**
+```{r}
+fm1 <- clm(as.factor(takerx) ~ governmentresponsibility + responsiblecost, data=df)
+summary(fm1)
+```
+**TABLE 6**
+```{r}
+##odds ratio
+exp(coef(fm1))
+```
+
+Compared to the multiple logistic regression where the coefficient of RESPONSIBLECOST  was statistically significant with a p-value of 0.00774, in table 5, here we also see this, but the p-value is more lower at 0.000834 in the Ordinal Logistic Regression. Once again this model supports my hypothesis. This is extremely telling since this coefficient in the prior model was also statistically significant. 
+
+In table 6, we see here for one higher category of peoples perception on the government is responsible for mental health care and cost, their odds of displaying a higher level of frequency for taking medication are 1.13 higher, holding all the other variables constant, including the entity responsible for mental care cost. In other words for one unit increase in the natural logarithm of respondents perception of government responsibility, their odds of being displaying a higher level of frequency of taking prescription medication are statistically insignificant 1.13 times over the previous level in government responsibility, holding all the other variable constant. For instance, the odds go up by 87% which supports my initial expectation. 
+
+For one higher category of people's perception of responsible cost, their odds of displaying a higher level of frequency of taking medication are 1.20 times higher, holding all the other variable constant, including government responsibility. In other words for one unit increase int he natural logarithm of respondent's perception of responsible cost, their odds of being displaying a higher level of frequency of taking prescription medication are statistically significant 1.20 times over the previous level in responsible cost, holding the other variables constant. For instance, the odds ratio goes up by 80%, also supporting my initial hypothesis. 
+
+**TABLE 7**
+```{r}
+fm2 = clm(as.factor(mntlhlth) ~ harmful+ interfere + psycmedstress + psycmedrelationships + psycmedsymptoms + psycmedbetter, data=df) 
+
+summary(fm2)
+```
+TABLE 8
+```{r}
+##odds ratio
+exp(coef(fm2))
+```
+
+Fitting our second dependent variable to our improved model, we see here that PSYCMEDRELATIONSHIPS is again statistically significant, and going against our initial hypothesis (p-value <0.05) while the other coefficients are statistically insignificant (P-Value>0.05). 
+
+For one higher category of people's perception of medication is harmful to the body, their odds of displaying a higher frequency of mental health days are 1.14 times higher, holding all the other variables constant including, interference of medication, medication alleviating stressors, relationships, symptoms, and improving overall well being. 
+
+For one higher category of people's perception of medication interfering with daily activity, their odds of displaying a higher frequency of mental health days are 1.01 higher, holding all the other variables constant including, perception of medication being harmful, medication alleviating stressors, relationships, symptoms, and improving overall well-being. 
+
+For one higher category of people's perception of medication helping deal with their daily stressors, their odds of displaying a higher frequency of mental health days are 0.98 higher, holding all the other variables constant including, perception of medication being harmful, medication interfering with daily activities, medication allevaiting relationships, symptoms, and improving overall well being. 
+
+For one higher category of people's perception of medication helping deal with relationships, their odds of displaying a higher frequency of mental health days are 1.94 higher, holding all the other variables constant including, perception of medication being harmful, medication interfering with daily activities, medication alleviating daily stress, symptoms, and improving overall well being. 
+
+For one higher category of people's perception of medication helping deal with symptoms, their odds of displaying a higher frequency of mental health days are 0.68 higher, holding all the other variables constant including, perception of medication being harmful, medication interfering with daily activities, medication alleviating daily stress, relationships, and improving overall well being. 
+
+For one higher category of people's perception of medication improving their well-being, their odds of displaying a higher frequency of mental health days are 0.68 higher, holding all the other variables constant including, perception of medication being harmful, medication interfering with daily activities, medication alleviating daily stress, relationships, and symptoms. 
+
+Once again we see that the coefficient, PSYCMEDREATIONSHIPS, is statistically significant- less than 0.05, with its P-value, 0.0436. Under the assumption of ordinal logistic regression there is no direct meaning of R square, and only makes sense when it is compared to the R-sq of the other model fitting the same data set. I will have to point out that this model shows desirable results that make logical sense. Although I have to stress that the above regression only reflects the effect of one variable when all other variables are held constant. 
+
+Another limitation if looking at the logic of my variables, they seem highly correlated to one another. That means it would be difficult to say that there is a drastic difference when it comes to the opinions about whether one experiences more frequent mental health days. For instance, let’s take prescription medication, for example, helps with daily stressors, the respondent’s opinion about whether perception medication helps for other symptoms such as relationships, making them feel better, etc is held constant. 
+
+Lastly, this model fails to rule out other variables that could possibly influence taking medication and mental health days at the same time. For instance, one who would support the government is responsible for mental health care probably is more willing to give trust to another entity responsible to delegate this manner and budget and because of that, maybe they are more receptive to taking prescription medication that has been prescribed. Even though there is a positive association, I cannot say that the chance that the variable that is driving the changes in both the dependent variable and independent variables. Since all these variables are measuring the condition of the responsible entity and medication helping with mental health days, it is difficult to tell that exactly another entity or prescription medication affects taking medication and mental health days significantly.  
+
+**5. Final Models**
+
+For my final models, I would choose TABLE 2 and TABLE 7 which reflects the multiple linear regression for our first analysis in regards to the relationship between taking medication and the entity responsible for medical care and resources. The rationale behind it is because our independent variable for RESPONSIBLECOST is categorical and when we put it though the following ordinal logistic regression model, we dilute its strength and statistical significance when we look at the p-values. Secondly, although we are limited to these limitations as mentioned above about the ordinal logistic regression, the model is still the superior one of choice when it comes down to comparison against the multiple regression model when we are analyzing the relationship between mental health days frequency and psychiatric medication alleviating those symptoms. The reason is that it treats ordinal variables better and makes it easier to understand and interpret and improve since all of our independent variables are ordinal. Therefore I choose the multiple linear regression model for TAKERX and the ordinal logistic regression model for MNTLHLTH.  
+
+**6. Conclusion**
+
+According to the statistical analysis and findings in my final project, the increase in people’s degree of supporting the government and an entity other than themselves being responsible for the cost of mental health resources and care will increase the frequency of people willing to take medication. The magnitude of these effects is weak when we reflect its adjusted R-sq of 0.01054. This indicates that these two variables may not be the most influential on the frequency when it comes to people taking medication. 
+
+Since a multiple linear regression might be hard and possibly be biased when it comes to understanding the outcome of an ordinal variable. Given this, this is why I decided to choose the ordinal logistic regression as my model of choice when I am analyzing the frequency of mental health days since all my independent variables for that analysis are ordinal, even though it slightly is more complicated than the former model. However, we are still limited by the model's limitations. since the coefficients on the controlled variables are a majority statistically insignificant. Perhaps this could be further improved by a better transformation by using a generalized ordinal logistic model. It might be more complicated since it will generate a unique set of regression coefficients for each comparison. It does this by fitting another set of regression coefficients for every compression. The results could potentially be better fitting. Finally, the project revealed that it might be worth wild to explore why PSYCMEDRELATIONSHPS is the only variable that goes against my hypothesis and is statistically significant. It would seem that the more your relationships are at ease the fewer mental health days you would have, but in both regressions regardless of the final, it is apparent that this logic does not hold. Perhaps this variable is the most specific when in comparison to daily stressors, symptoms, and feeling better. The framing of these words might pinpoint to the respondents to allow them to ponder about an aspect that might be more complicated than the other variables and hence, why my hypothesis was not supported. Or perhaps, relationships are a telling variable since it is the one that seems to involve the most social aspect out of the variables. This could point to more research in the social environment and its impact on mental health. Overall, I do see that there is a need for an entity other than the self for mental health resources when it comes to taking medication, and we do see that taking medication does help alleviate some mental health factors. Thus, future research that I have pointed to so far could help make the push for universal healthcare in the United States for a better, happier, and healthier society. 
+
+
+
